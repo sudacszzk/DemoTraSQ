@@ -1,0 +1,87 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="demo:war exploded">
+    <output-path>$PROJECT_DIR$/target/Kafkarw-1.0-SNAPSHOT</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <exploded>true</exploded>
+        <module>demo</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="demo" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-clients_2.11:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-runtime_2.11:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-queryable-state-client-java:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-hadoop-fs:1.9.0" />
+          <element id="library" level="project" name="Maven: commons-io:commons-io:2.4" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-shaded-netty:4.1.32.Final-7.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-shaded-jackson:2.9.8-7.0" />
+          <element id="library" level="project" name="Maven: org.javassist:javassist:3.19.0-GA" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor_2.11:2.5.21" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-java8-compat_2.11:0.7.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-stream_2.11:2.5.21" />
+          <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.11:0.3.7" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.11:1.1.1" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-protobuf_2.11:2.5.21" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-slf4j_2.11:2.5.21" />
+          <element id="library" level="project" name="Maven: org.clapper:grizzled-slf4j_2.11:1.3.2" />
+          <element id="library" level="project" name="Maven: com.github.scopt:scopt_2.11:3.5.0" />
+          <element id="library" level="project" name="Maven: com.twitter:chill_2.11:0.7.6" />
+          <element id="library" level="project" name="Maven: com.twitter:chill-java:0.7.6" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-optimizer_2.11:1.9.0" />
+          <element id="library" level="project" name="Maven: commons-cli:commons-cli:1.3.1" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.15" />
+          <element id="library" level="project" name="Maven: com.google.code.findbugs:jsr305:1.3.9" />
+          <element id="library" level="project" name="Maven: org.apache.flink:force-shading:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-connector-kafka_2.11:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-connector-kafka-base_2.11:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-java:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-shaded-asm-6:6.2.1-7.0" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.3.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-math3:3.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-nop:1.7.2" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-streaming-java_2.11:1.9.0" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-shaded-guava:18.0-7.0" />
+          <element id="library" level="project" name="Maven: org.apache.kafka:kafka-clients:0.11.0.0" />
+          <element id="library" level="project" name="Maven: net.jpountz.lz4:lz4:1.3.0" />
+          <element id="library" level="project" name="Maven: org.xerial.snappy:snappy-java:1.1.2.6" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-streaming-java_2.12:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-runtime_2.12:1.9.3" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-slf4j_2.12:2.5.21" />
+          <element id="library" level="project" name="Maven: org.clapper:grizzled-slf4j_2.12:1.3.2" />
+          <element id="library" level="project" name="Maven: com.github.scopt:scopt_2.12:3.5.0" />
+          <element id="library" level="project" name="Maven: com.twitter:chill_2.12:0.7.6" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-clients_2.12:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-optimizer_2.12:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-core:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-annotations:1.9.3" />
+          <element id="library" level="project" name="Maven: org.apache.flink:flink-metrics-core:1.9.3" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware.kryo:kryo:2.24.0" />
+          <element id="library" level="project" name="Maven: com.esotericsoftware.minlog:minlog:1.2" />
+          <element id="library" level="project" name="Maven: org.objenesis:objenesis:2.1" />
+          <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2.2" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-compress:1.18" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-stream_2.12:2.5.21" />
+          <element id="library" level="project" name="Maven: org.scala-lang:scala-library:2.12.8" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-actor_2.12:2.5.21" />
+          <element id="library" level="project" name="Maven: com.typesafe:config:1.3.3" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-java8-compat_2.12:0.8.0" />
+          <element id="library" level="project" name="Maven: com.typesafe.akka:akka-protobuf_2.12:2.5.21" />
+          <element id="library" level="project" name="Maven: org.reactivestreams:reactive-streams:1.0.2" />
+          <element id="library" level="project" name="Maven: com.typesafe:ssl-config-core_2.12:0.3.7" />
+          <element id="library" level="project" name="Maven: org.scala-lang.modules:scala-parser-combinators_2.12:1.1.1" />
+          <element id="library" level="project" name="Maven: org.example:Kafkarw:1.0-SNAPSHOT" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/target/Kafkarw-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="demo/web/Web" />
+    </root>
+  </artifact>
+</component>
